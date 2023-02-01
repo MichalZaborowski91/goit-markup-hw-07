@@ -18,7 +18,7 @@
   background-position: center;
   background-repeat: no-repeat;
 
-  &[type="button"] {
+  [type="button"] {
     box-sizing: content-box;
     background-color: var(--buttons-color);
     font-weight: 700;

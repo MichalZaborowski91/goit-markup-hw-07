@@ -16,7 +16,7 @@
     &:focus {
       color: var(--hilight-color);
 
-      &.contact-header__contact-icon {
+      & .contact-header__contact-icon {
         fill: var(--hilight-color);
       }
     }
