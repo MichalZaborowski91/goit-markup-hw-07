@@ -1,0 +1,30 @@
+@import "./components/navigation";
+@import "./components/logo";
+@import "./components/header";
+@import "./components/contact";
+@import "./components/main-section";
+@import "./components/description";
+@import "./components/gallery";
+@import "./components/team";
+@import "./components/clients";
+@import "./components/footer";
+@import "./components/social-media-footer";
+@import "./components/social-media-team";
+@import "./components/newsletter";
+@import "./components/modal-window";
+@import "./components/buttons-portfolio";
+@import "./components/portfolio";
+@import "./components/global";
+@import "./utils/vars";
+
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.section-top {
+  padding-top: 94px;
+}
+.container {
+  max-width: 1200px;
+  margin-left: 215px;
+}

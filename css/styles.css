@@ -175,7 +175,7 @@ body {
   text-decoration: none;
 }
 
-.page-header .navigation {
+.navigation {
   display: flex;
   list-style: none;
   padding-top: 32px;
@@ -629,7 +629,7 @@ figure {
 .portfolio__portfolio-list figure:hover .box__overlay {
   transform: translateY(0);
 }
-.content__button {
+.newsletter__button {
   display: flex;
   position: relative;
   width: 200px;
@@ -648,13 +648,13 @@ figure {
   padding-left: 42px;
   cursor: pointer;
 }
-.content__button > svg {
+.newsletter__button > svg {
   position: absolute;
   top: 13px;
   left: 148px;
 }
 
-.content__icon-send {
+.newsletter__icon-send {
   fill: rgba(255, 255, 255, 1);
 }
 .newsletter__box {
@@ -673,7 +673,7 @@ figure {
   padding-top: 72px;
   padding-bottom: 20px;
 }
-.label__input {
+.newsletter__input {
   width: 358px;
   height: 50px;
   border-radius: 4px;
