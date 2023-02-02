@@ -6,6 +6,10 @@
   margin: 0 auto;
   padding-left: 0;
 
+  &__figure {
+    margin: 0 auto;
+  }
+
   &__portfolio-list {
     flex-basis: ((100% - 2 * 30) / 3);
     background: var(--headerbackground-color);

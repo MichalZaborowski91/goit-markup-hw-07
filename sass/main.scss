@@ -1,3 +1,5 @@
+@import "./utils/common";
+@import "./utils/vars";
 @import "./components/navigation";
 @import "./components/logo";
 @import "./components/header";
@@ -14,18 +16,4 @@
 @import "./components/modal-window";
 @import "./components/buttons-portfolio";
 @import "./components/portfolio";
-@import "./components/global";
 @import "./components/address";
-@import "./utils/vars";
-
-.section {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
-.section-top {
-  padding-top: 94px;
-}
-.container {
-  max-width: 1200px;
-  margin-left: 215px;
-}

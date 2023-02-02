@@ -5,8 +5,9 @@ body {
   font-size: 14px;
   width: 1600px;
   position: relative;
+  margin: 0 auto;
 }
-h1 {
+.main-header {
   font-weight: 900;
   font-size: 44px;
   color: var(--headerbackground-color);
@@ -18,7 +19,7 @@ h1 {
   align-items: center;
   margin: 0;
 }
-h2 {
+.secondary-header {
   font-weight: 700;
   text-align: center;
   margin-top: 0;
@@ -27,10 +28,15 @@ h2 {
   line-height: 42px;
   letter-spacing: 0.03em;
 }
-h4 {
-  font-weight: 700;
-  margin: 0;
+
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
-figure {
-  margin: 0 auto;
+.section-top {
+  padding-top: 94px;
+}
+.container {
+  max-width: 1200px;
+  margin-left: 215px;
 }

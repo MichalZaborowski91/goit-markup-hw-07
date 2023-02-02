@@ -1,9 +1,11 @@
-.page-footer {
+.footer {
   &__header {
     text-transform: uppercase;
     color: var(--headerbackground-color);
     padding-top: 72px;
     margin-left: 70px;
+    font-weight: 700;
+    margin-top: 0;
   }
   &__social-media-background {
     display: flex;

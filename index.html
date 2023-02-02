@@ -21,7 +21,7 @@
     <title>WebStudio</title>
   </head>
   <body>
-    <header class="page-header">
+    <header class="header">
       <!--Logo strony-->
       <div class="container">
         <a class="logo" href="index.html"
@@ -74,7 +74,9 @@
     <main>
       <section class="main-section section">
         <div class="container">
-          <h1>EFEKTYWNE ROZWIĄZANIA <br />DLA WASZEGO BIZNESU</h1>
+          <h1 class="main-header">
+            EFEKTYWNE ROZWIĄZANIA <br />DLA WASZEGO BIZNESU
+          </h1>
           <button type="button" data-modal-open>Zamów usługe</button>
         </div>
       </section>
@@ -90,7 +92,7 @@
                 href="./images/icons.svg#icon-antenna-1"
               ></use>
             </svg>
-            <h4>LOREM IPSUM</h4>
+            <h4 class="description__header">LOREM IPSUM</h4>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
               arcu sem. Sed non sodales dui. Interdum et malesuada
@@ -106,7 +108,7 @@
                 href="./images/icons.svg#icon-clock-1"
               ></use>
             </svg>
-            <h4>LOREM IPSUM</h4>
+            <h4 class="description__header">LOREM IPSUM</h4>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
               arcu sem. Sed non sodales dui. Interdum et malesuada
@@ -122,7 +124,7 @@
                 href="./images/icons.svg#icon-diagram-1"
               ></use>
             </svg>
-            <h4>LOREM IPSUM</h4>
+            <h4 class="description__header">LOREM IPSUM</h4>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
               arcu sem. Sed non sodales dui. Interdum et malesuada
@@ -138,7 +140,7 @@
                 href="./images/icons.svg#icon-astronaut-1"
               ></use>
             </svg>
-            <h4>LOREM IPSUM</h4>
+            <h4 class="description__header">LOREM IPSUM</h4>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
               arcu sem. Sed non sodales dui. Interdum et malesuada
@@ -148,7 +150,7 @@
       </section>
       <!--Galeria czym sie zajmujemy-->
       <section class="section container">
-        <h2>Czym sie zajmujemy</h2>
+        <h2 class="secondary-header">Czym sie zajmujemy</h2>
         <ul class="gallery">
           <li class="gallery__item">
             <div class="gallery__style">
@@ -189,10 +191,10 @@
       <!--Zespół-->
       <section class="team section">
         <div class="container">
-          <h2>Nasz zespół</h2>
+          <h2 class="secondary-header">Nasz zespół</h2>
           <ul class="team__list">
             <li class="team__item">
-              <figure>
+              <figure class="team__figure">
                 <img
                   src="./images/our_team/john_doe.jpg"
                   alt="john doe"
@@ -284,7 +286,7 @@
               </ul>
             </li>
             <li class="team__item">
-              <figure>
+              <figure class="team__figure">
                 <img
                   src="./images/our_team/lucy_quin.jpg"
                   alt="lucy quin"
@@ -376,7 +378,7 @@
               </ul>
             </li>
             <li class="team__item">
-              <figure>
+              <figure class="team__figure">
                 <img
                   src="./images/our_team/rob_white.jpg"
                   alt="rob white"
@@ -468,7 +470,7 @@
               </ul>
             </li>
             <li class="team__item">
-              <figure>
+              <figure class="team__figure">
                 <img
                   src="./images/our_team/tom_hardy.jpg"
                   alt="tom hardy"
@@ -564,7 +566,7 @@
       </section>
       <section class="section">
         <div class="container">
-          <h2>Nasi klienci</h2>
+          <h2 class="secondary-header">Nasi klienci</h2>
           <ul class="clients">
             <li>
               <svg width="170" height="92" class="clients__background">
@@ -642,7 +644,7 @@
         </div>
       </section>
     </main>
-    <footer class="page-footer">
+    <footer class="footer">
       <div class="container">
         <div>
           <a class="logo" href="index.html"
@@ -657,18 +659,18 @@
           </address>
         </div>
         <div>
-          <h4 class="page-footer__header">Dołącz do nas</h4>
-          <ul class="page-footer__social-media">
+          <h4 class="footer__header">Dołącz do nas</h4>
+          <ul class="footer__social-media">
             <li>
               <a
-                class="page-footer__social-media-background"
+                class="footer__social-media-background"
                 href="https://www.instagram.com"
                 target="blank"
                 rel="noreferrer noopener"
               >
                 <svg width="44" height="44">
                   <use
-                    class="page-footer__social-media-icon"
+                    class="footer__social-media-icon"
                     x="12"
                     y="12"
                     width="20px"
@@ -680,14 +682,14 @@
             </li>
             <li>
               <a
-                class="page-footer__social-media-background"
+                class="footer__social-media-background"
                 href="https://www.twitter.com"
                 target="blank"
                 rel="noreferrer noopener"
               >
                 <svg width="44" height="44">
                   <use
-                    class="page-footer__social-media-icon"
+                    class="footer__social-media-icon"
                     x="12"
                     y="12"
                     width="20px"
@@ -699,14 +701,14 @@
             </li>
             <li>
               <a
-                class="page-footer__social-media-background"
+                class="footer__social-media-background"
                 href="https://www.facebook.com"
                 target="blank"
                 rel="noreferrer noopener"
               >
                 <svg width="44" height="44">
                   <use
-                    class="page-footer__social-media-icon"
+                    class="footer__social-media-icon"
                     x="12"
                     y="12"
                     width="20px"
@@ -718,14 +720,14 @@
             </li>
             <li>
               <a
-                class="page-footer__social-media-background"
+                class="footer__social-media-background"
                 href="https://www.linkedin.com/"
                 target="blank"
                 rel="noreferrer noopener"
               >
                 <svg width="44" height="44">
                   <use
-                    class="page-footer__social-media-icon"
+                    class="footer__social-media-icon"
                     x="12"
                     y="12"
                     width="20px"

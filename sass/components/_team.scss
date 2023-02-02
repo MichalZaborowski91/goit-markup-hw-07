@@ -3,6 +3,10 @@
   height: 708px;
   background-color: var(--buttons-color);
 
+  &__figure {
+    margin: 0 auto;
+  }
+
   &__list {
     list-style: none;
     display: flex;
